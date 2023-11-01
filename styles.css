@@ -18,3 +18,32 @@
     padding: 20px;
     width: 600px;
 }
+
+.container form .inputBox{
+    margin-top: 20px;
+}
+
+.container form .inputBox span{
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.container form .inputBox input,
+.conatiner form .inputBox select{
+    width: 100;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    color:#444
+}
+
+.container form .flexBox{
+    display: flex;
+    gap: 15px;
+}
+
+.container form .flexBox .inputBox{
+    flex:1 1 150px;
+}
+
