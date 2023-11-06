@@ -12,6 +12,16 @@
 }
 
 .container{
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+
+.container form{
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 10px 15px rgba(0,0,0,0.1);
@@ -30,8 +40,8 @@
 }
 
 .container form .inputBox input,
-.conatiner form .inputBox select{
-    width: 100;
+.container form .inputBox select{
+    width: 100%;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgba(0,0,0,0.3);
